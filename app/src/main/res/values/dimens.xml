@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextSizeForNameCard">16sp</dimen>
+    <dimen name="EllipseWidthAndHeight">260dp</dimen>
+    <dimen name="EllipseMarginTop">70dp</dimen>
+    <dimen name="EllipseMarginStart">30dp</dimen>
+    <dimen name="MarginStartForNameCard">50dp</dimen>
+    <dimen name="TextViewWidth">363dp</dimen>
+    <dimen name="TextViewHeight">48dp</dimen>
+    <dimen name="DrawablePadding">10dp</dimen>
+    <dimen name="TextSize8sp">8sp</dimen>
+    <dimen name="TextSize16sp">16sp</dimen>
+    <dimen name="TextSize24sp">24sp</dimen>
+    <dimen name="TextSize32sp">32sp</dimen>
+    <dimen name="Margin8dp">8dp</dimen>
+    <dimen name="Margin16dp">16dp</dimen>
+    <dimen name="Margin24dp">24dp</dimen>
+    <dimen name="Margin32dp">32dp</dimen>
+    <dimen name="Padding8dp">8dp</dimen>
+    <dimen name="Padding16dp">16dp</dimen>
+    <dimen name="Padding24dp">24dp</dimen>
+    <dimen name="Padding32dp">32dp</dimen>
+    <dimen name="Margin64dp">64dp</dimen>
+</resources>

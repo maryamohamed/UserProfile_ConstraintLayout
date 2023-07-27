@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UserProfile_ConstraintLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.UserProfile_ConstraintLayout" parent="Base.Theme.UserProfile_ConstraintLayout" />
+    <style name="ViewText" >
+        <item name="android:layout_width">@dimen/TextViewWidth</item>
+        <item name="android:layout_height">@dimen/TextViewHeight</item>
+        <item name="android:textSize">@dimen/TextSize24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/Margin32dp</item>
+    </style>
+
+    <style name="ViewText.GravityAndDrawablePadding" >
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/DrawablePadding</item>
+    </style>
+
+</resources>

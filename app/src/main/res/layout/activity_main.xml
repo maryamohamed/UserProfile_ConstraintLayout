@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/Padding16dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_ProfilePicture"
+        android:layout_width="@dimen/EllipseWidthAndHeight"
+        android:layout_height="@dimen/EllipseWidthAndHeight"
+        android:layout_marginStart="@dimen/Margin32dp"
+        android:layout_marginTop="@dimen/Margin16dp"
+        android:background="@drawable/ellipse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/profile_picture" />
+
+    <TextView
+        android:id="@+id/tv_NameCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/Margin32dp"
+        android:layout_marginTop="@dimen/Margin8dp"
+        android:text="@string/name_card"
+        android:textColor="@color/name_card"
+        android:textSize="@dimen/TextSizeForNameCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ProfilePicture" />
+
+    <TextView
+        android:id="@+id/tv_UserName"
+        style="@style/ViewText"
+        android:layout_marginStart="@dimen/Margin32dp"
+        android:text="@string/mr_hassan_magdy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_NameCard" />
+
+    <TextView
+        android:id="@+id/tv_Ceo"
+        style="@style/ViewText"
+        android:layout_marginStart="@dimen/Margin32dp"
+        android:text="@string/ceoProcrew"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_UserName" />
+
+    <TextView
+        android:id="@+id/tv_PhoneNumber"
+        style="@style/ViewText"
+        android:layout_marginStart="@dimen/Margin32dp"
+        android:layout_marginTop="@dimen/Margin16dp"
+        android:drawablePadding="@dimen/DrawablePadding"
+        android:gravity="center_vertical"
+        android:text="@string/tel"
+        app:drawableLeftCompat="@drawable/baseline_phone_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Ceo" />
+
+    <TextView
+        style="@style/ViewText"
+        android:layout_marginStart="@dimen/Margin32dp"
+        android:gravity="center_vertical"
+        android:text="@string/email"
+        android:drawablePadding="@dimen/DrawablePadding"
+        app:drawableLeftCompat="@drawable/baseline_mail_outline_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_PhoneNumber"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
